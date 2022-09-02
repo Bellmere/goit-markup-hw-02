@@ -21,13 +21,20 @@
 
 body {}
 
-.list {
+ul {
     list-style: none;
+}
+
+h1 {
+    color: var(--primary-white-color);
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--title-text-color);
 }
 
 .header {
     background-color: var(--primary-white-color);
-    color: var(--title-text-color);
 }
 
 /* logo */
@@ -62,5 +69,61 @@ body {}
 
 .contact a:hover,
 .contact a:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.section-hero {
+    background-color: var(--secondary-black-color);
+}
+
+.section-hero .btn {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* features */
+
+.section-features {
+    background-color: var(--secondary-white-color);
+}
+
+.section-features p {
+    color:var(--text-color);
+}
+
+/* what we do */
+
+.section-do {
+    background-color: var(--secondary-white-color);
+}
+
+/* Our team */
+
+.section-team {
+    background-color: var(--third-white-color);
+}
+
+.section-team p {
+    color: var(--text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--secondary-black-color);
+}
+
+.adress-link {
+    color: var(--primary-white-color);
+}
+
+.contact-footer {
+    color: var(--secondary-black-color);
+}
+
+.adress a:hover,
+.adress a:focus {
     color: var(--accent-color);
 }
