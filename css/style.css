@@ -1,0 +1,66 @@
+/* белый #FFFFFF*/
+/* акцент #2196F3*/
+/*черный hero&fotter #2F303A*/
+/*титулы черный #212121*/
+/*черный логотип #000000*/
+/* серый текст #757575 */
+/* вторичный белый #F5F5F5 */
+/* оттенок белого команда #F5F4FA */
+/* цвет контактов футер белый rgba(255, 255, 255, 0.6) */
+:root {
+    --title-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --primary-white-color: #FFFFFF;
+    --secondary-white-color: #F5F5F5;
+    --third-white-color: #F5F4FA;
+    --primary-black-color: #000000;
+    --secondary-black-color: #2F303A;
+}
+
+body {}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    background-color: var(--primary-white-color);
+    color: var(--title-text-color);
+}
+
+/* logo */
+.logo-link {
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: var(--primary-black-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color:var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contact a {
+    color:var(--text-color);
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-color);
+}
