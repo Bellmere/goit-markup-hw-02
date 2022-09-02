@@ -17,9 +17,12 @@
     --third-white-color: #F5F4FA;
     --primary-black-color: #000000;
     --secondary-black-color: #2F303A;
+    --btn-active-color: #188CE8;
 }
 
-body {}
+body {
+    color: var(--text-color);
+}
 
 ul {
     list-style: none;
@@ -61,6 +64,10 @@ h2, h3, h4, h5, h6 {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* contacts */
 
 .contact a {
@@ -83,14 +90,15 @@ h2, h3, h4, h5, h6 {
     color: var(--primary-white-color);
 }
 
+.section-hero .btn:hover,
+.section-hero .btn:focus {
+    background-color: var(--primary-white-color);
+    color: var(--btn-active-color);
+}
 /* features */
 
 .section-features {
     background-color: var(--secondary-white-color);
-}
-
-.section-features p {
-    color:var(--text-color);
 }
 
 /* what we do */
@@ -103,10 +111,6 @@ h2, h3, h4, h5, h6 {
 
 .section-team {
     background-color: var(--third-white-color);
-}
-
-.section-team p {
-    color: var(--text-color);
 }
 
 /* footer */
