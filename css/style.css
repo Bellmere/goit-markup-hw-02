@@ -18,7 +18,7 @@
     --third-white-color: #F5F4FA;
     --primary-black-color: #000000;
     --secondary-black-color: #2F303A;
-    --btn-active-color: #188CE8;
+    --btn-hero-color: #188CE8;
 }
 
 body {
@@ -126,9 +126,12 @@ ul {
 
 .btn {
     cursor: pointer;
+
+    background-color:var(--secondary-white-color);
+    color: var(--title-text-color);
 }
-.section-hero .btn{
-    background-color: var(--accent-color);
+.btn-hero {
+    background-color: var(--btn-hero-color);
     color: var(--primary-white-color);
 
     font-family: inherit;
@@ -142,9 +145,10 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.section-hero .btn:hover,
-.section-hero .btn:focus {
-    color: var(--btn-active-color);
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 /* features */
