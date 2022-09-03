@@ -221,7 +221,9 @@ h6 {
 
 /* portfolio */
 
-.portfolio-list h2 {
+.portfolio-link h2 {
+  color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -229,7 +231,13 @@ h6 {
   letter-spacing: 0.06em;
 }
 
-.portfolio-list p {
+.portfolio-link p {
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  color: var(--accent-color);
 }
