@@ -7,6 +7,7 @@
 /* вторичный белый #F5F5F5 */
 /* оттенок белого команда #F5F4FA */
 /* цвет контактов футер белый rgba(255, 255, 255, 0.6) */
+/* active button color  #188CE8*/
 :root {
     --title-text-color: #212121;
     --text-color: #757575;
@@ -37,6 +38,7 @@ ul {
 }
 
 /* logo */
+
 .logo-link {
     color: var(--accent-color);
 
@@ -121,6 +123,7 @@ ul {
 }
 
 /* buttons */
+
 .btn {
     cursor: pointer;
 }
@@ -141,9 +144,9 @@ ul {
 
 .section-hero .btn:hover,
 .section-hero .btn:focus {
-    background-color: var(--primary-white-color);
     color: var(--btn-active-color);
 }
+
 /* features */
 
 .section-title {
@@ -199,7 +202,7 @@ ul {
 }
 
 .adress-contact {
-    color: var(--secondary-black-color);
+    color: var(--footer-contact-color);
 }
 
 .adress-list a:hover,
