@@ -135,9 +135,16 @@ h6 {
 
   font-family: inherit;
 }
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
 .btn-hero {
   cursor: pointer;
-  
+
   background-color: var(--btn-hero-color);
   color: var(--primary-white-color);
 
@@ -152,9 +159,9 @@ h6 {
   letter-spacing: 0.06em;
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--btn-hero-color);
   color: var(--primary-white-color);
 }
 
