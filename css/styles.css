@@ -237,7 +237,7 @@ h6 {
   line-height: 1.88;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-list .portfolio-link:hover,
+.portfolio-list .portfolio-link:focus {
   color: var(--accent-color);
 }
