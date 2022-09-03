@@ -248,5 +248,5 @@ h6 {
 
 .portfolio-list .portfolio-link:hover,
 .portfolio-list .portfolio-link:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }
