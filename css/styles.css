@@ -132,6 +132,8 @@ h6 {
 
   background-color: var(--secondary-white-color);
   color: var(--title-text-color);
+
+  font-family: inherit;
 }
 .btn-hero {
   background-color: var(--btn-hero-color);
