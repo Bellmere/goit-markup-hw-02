@@ -136,6 +136,8 @@ h6 {
   font-family: inherit;
 }
 .btn-hero {
+  cursor: pointer;
+  
   background-color: var(--btn-hero-color);
   color: var(--primary-white-color);
 
