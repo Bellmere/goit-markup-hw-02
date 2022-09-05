@@ -37,7 +37,7 @@ body {
 .logo-link {
   color: var(--accent-color);
 
-  font-family: Raleway, sans;
+  font-family: Raleway, serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -48,7 +48,7 @@ body {
 .logo-header {
   color: var(--primary-black-color);
 
-  font-family: Raleway, sans;
+  font-family: Raleway, serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -59,7 +59,7 @@ body {
 .logo-footer {
   color: var(--primary-white-color);
 
-  font-family: Raleway, sans;
+  font-family: Raleway, serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
